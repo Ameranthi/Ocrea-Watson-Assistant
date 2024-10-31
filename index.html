@@ -5,15 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IBM WatsonX</title>
 <link rel="stylesheet" href="styles.css">
+
+<!-- Copy pasta from Ont Creates cloud account-->
    <script>
   window.watsonAssistantChatOptions = {
     integrationID: "dfdc4fd8-f775-4088-ac81-0fe65149cb32", // The ID of this integration.
-    region: "us-south", // The region your integration is hosted in.
+    region: "au-syd", // The region your integration is hosted in.
     serviceInstanceID: "3bf5747e-0e87-4313-bb09-4cd1f4d43fdf", // The ID of your service instance.
     disclaimer: {
-        isOn: true,
+        isOn: true, 
         disclaimerHTML: "you agree to the Terms and Conditions of IBM Canada"
-      },
+     },
     onLoad: async (instance) => { await instance.render(); }
   };
   setTimeout(function(){
